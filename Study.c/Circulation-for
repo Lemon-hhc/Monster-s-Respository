@@ -5,7 +5,10 @@ int i=0;
 int j=0;
 int sum=0;
 int ret =1;
-for(i=1;i<=3;i++)
+int m;
+printf("Please input the number");
+scanf("%d",&m);
+for(i=1;i<=m;i++)
 {
   ret =1;
   for(j=1;j<=i;j++)
@@ -18,3 +21,4 @@ for(i=1;i<=3;i++)
 printf("sum = %d\n",sum);
 return 0;
 }
+//The factorial-阶乘的计算
