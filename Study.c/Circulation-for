@@ -6,7 +6,7 @@ int j=0;
 int sum=0;
 int ret =1;
 int m;
-printf("Please input the number");
+printf("Please inport the number");
 scanf("%d",&m);
 for(i=1;i<=m;i++)
 {
@@ -29,7 +29,7 @@ return 0;
 {
   int i;
    int n;
-  printf("Please input the number you want");
+  printf("Please inport the number you want");
   scanf("%d",&n);
   int ret=1;
   for(i=1;i<=n;i++)
