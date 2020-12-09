@@ -11,4 +11,4 @@ int main()
   }
   return 0;
 }
-  //if you input number it will output; other's input will not to be output.
+  //if you input number it will output; other's inport will not to be output.
