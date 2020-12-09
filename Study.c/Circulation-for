@@ -21,4 +21,21 @@ for(i=1;i<=m;i++)
 printf("sum = %d\n",sum);
 return 0;
 }
-//The factorial-阶乘的和运算
+//Sum of factorials-阶乘的和运算
+
+
+#include<stdio.h>
+  int main()
+{
+  int i;
+   int n;
+  printf("Please input the number you want");
+  scanf("%d",&n);
+  int ret=1;
+  for(i=1;i<=n;i++)
+  {
+  ret = ret*i;
+  }
+printf("%d ",ret);
+}
+//The factorials -阶乘的计算
