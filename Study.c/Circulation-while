@@ -48,7 +48,7 @@ int main()
     int m =22;
     int n = 3;
     int r = 0;
-    printf("Please input the numbers\n");//Find the greatest common divisor of two numbers
+    printf("Please inport the numbers\n");//Find the greatest common divisor of two numbers
     scanf("%d%d",&m,&n);
     while (r=m%n)
     {
