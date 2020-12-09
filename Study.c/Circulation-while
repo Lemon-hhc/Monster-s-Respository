@@ -1,3 +1,4 @@
+1.
 #include<stdio.h>
 #include<string.h>
 int main()
@@ -17,7 +18,7 @@ int main()
     }
     return 0;
 }
-
+2.
 #include<stdio.h>
 #include<string.h>
 #include<windows.h>//System header file
@@ -39,4 +40,21 @@ int main()
         right--;
     }
     return 0;
+}
+3.
+#include<stdio.h>
+int main()
+{
+    int m =22;
+    int n = 3;
+    int r = 0;
+    printf("Please input the numbers\n");//Find the greatest common divisor of two numbers
+    scanf("%d%d",&m,&n);
+    while (r=m%n)
+    {
+        m=n;
+        n=r;
+    }
+    printf("%d",n);
+    
 }
