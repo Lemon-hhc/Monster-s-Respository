@@ -21,4 +21,4 @@ for(i=1;i<=m;i++)
 printf("sum = %d\n",sum);
 return 0;
 }
-//The factorial-阶乘的计算
+//The factorial-阶乘的和运算
